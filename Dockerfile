@@ -8,7 +8,7 @@ RUN yum install -y wget unzip util-linux-ng epel-release nmap tree python-pip gi
 RUN pip install --upgrade pip
 RUN pip install awscli
 
-RUN git clone https://github.com/kamatama41/tfenv.git /.tfenv
+RUN git clone https://github.com/tfutils/tfenv.git /.tfenv
 
 RUN ln -s /.tfenv/bin/* /usr/local/bin
 
