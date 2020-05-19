@@ -17,7 +17,7 @@ AWS_MFA_EXPIRY
 **Usage**
 ------
 ```bash
-$ docker build -t tf-executor .
+$ docker build -t tf-executor-amzlnx2 .
 
 $ TF_WORKING_DIR=~/my-terraform-code docker-compose -f docker-compose.yaml run tf-bash
 ```

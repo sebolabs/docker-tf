@@ -2,9 +2,9 @@ version: "2"
 
 services:
   tf-bash:
-    image: tf-executor
+    image: tf-executor-amzlnx2
     working_dir: /opt/tf-code
-    entrypoint: /etc/init.d/tf-bash.sh
+    entrypoint: /opt/tf-bash.sh
     volumes:
       - ${TF_WORKING_DIR}:/opt/tf-code
     environment:
